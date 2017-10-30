@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A2F1901FA71AB900C57B41 /* CommonConfigFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A2F18E1FA71AB900C57B41 /* CommonConfigFile.m */; };
+		96F36AC61FA2DB5F00340469 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36AC51FA2DB5F00340469 /* AppDelegate.m */; };
+		96F36AC81FA2DB5F00340469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F36AC71FA2DB5F00340469 /* Assets.xcassets */; };
+		96F36ACB1FA2DB5F00340469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F36AC91FA2DB5F00340469 /* LaunchScreen.storyboard */; };
+		96F36ACE1FA2DB5F00340469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36ACD1FA2DB5F00340469 /* main.m */; };
+		96F36AD81FA2DB5F00340469 /* ChangePasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36AD71FA2DB5F00340469 /* ChangePasswordTests.m */; };
+		96F36AE31FA2DB5F00340469 /* ChangePasswordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36AE21FA2DB5F00340469 /* ChangePasswordUITests.m */; };
+		96F36AFA1FA3099F00340469 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36AF81FA3099F00340469 /* RootViewController.m */; };
+		96F36AFB1FA3099F00340469 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F36AF91FA3099F00340469 /* RootViewController.xib */; };
+		96F36AFE1FA3124600340469 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36AFD1FA3124600340469 /* Utils.m */; };
+		96F36B041FA3173400340469 /* NSString+AESSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36B031FA3173400340469 /* NSString+AESSecurity.m */; };
+		96F36B0A1FA31A4000340469 /* SVProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F36B091FA31A4000340469 /* SVProgressHUD+Extension.m */; };
+		B2FED058A74EA639CE36E671 /* libPods-ChangePassword.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5FC0DE54977DCBDC15E94D /* libPods-ChangePassword.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96F36AD41FA2DB5F00340469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F36AB91FA2DB5F00340469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F36AC01FA2DB5F00340469;
+			remoteInfo = ChangePassword;
+		};
+		96F36ADF1FA2DB5F00340469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F36AB91FA2DB5F00340469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F36AC01FA2DB5F00340469;
+			remoteInfo = ChangePassword;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009488C003AFEBA3655B9050 /* Pods-ChangePassword.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePassword.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChangePassword/Pods-ChangePassword.release.xcconfig"; sourceTree = "<group>"; };
+		96A2F18E1FA71AB900C57B41 /* CommonConfigFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonConfigFile.m; sourceTree = "<group>"; };
+		96A2F18F1FA71AB900C57B41 /* CommonConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonConfigFile.h; sourceTree = "<group>"; };
+		96F36AC11FA2DB5F00340469 /* ChangePassword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangePassword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F36AC41FA2DB5F00340469 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96F36AC51FA2DB5F00340469 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96F36AC71FA2DB5F00340469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96F36ACA1FA2DB5F00340469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96F36ACC1FA2DB5F00340469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F36ACD1FA2DB5F00340469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F36AD31FA2DB5F00340469 /* ChangePasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangePasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F36AD71FA2DB5F00340469 /* ChangePasswordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordTests.m; sourceTree = "<group>"; };
+		96F36AD91FA2DB5F00340469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F36ADE1FA2DB5F00340469 /* ChangePasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangePasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F36AE21FA2DB5F00340469 /* ChangePasswordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordUITests.m; sourceTree = "<group>"; };
+		96F36AE41FA2DB5F00340469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F36AF51FA308A500340469 /* ChangePasswordFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePasswordFile.h; sourceTree = "<group>"; };
+		96F36AF61FA308D500340469 /* ChangePasswordPchFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePasswordPchFile.pch; sourceTree = "<group>"; };
+		96F36AF71FA3099F00340469 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		96F36AF81FA3099F00340469 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		96F36AF91FA3099F00340469 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		96F36AFC1FA3124600340469 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		96F36AFD1FA3124600340469 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		96F36B021FA3173400340469 /* NSString+AESSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AESSecurity.h"; sourceTree = "<group>"; };
+		96F36B031FA3173400340469 /* NSString+AESSecurity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AESSecurity.m"; sourceTree = "<group>"; };
+		96F36B081FA31A4000340469 /* SVProgressHUD+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		96F36B091FA31A4000340469 /* SVProgressHUD+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+Extension.m"; sourceTree = "<group>"; };
+		AA5FC0DE54977DCBDC15E94D /* libPods-ChangePassword.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChangePassword.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9908D652AC263BF417E50F /* Pods-ChangePassword.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangePassword.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChangePassword/Pods-ChangePassword.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F36ABE1FA2DB5F00340469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FED058A74EA639CE36E671 /* libPods-ChangePassword.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F36AD01FA2DB5F00340469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F36ADB1FA2DB5F00340469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7567AC192B9FF759A140FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5FC0DE54977DCBDC15E94D /* libPods-ChangePassword.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61C9E38CFE0A6E695A0D2DDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE9908D652AC263BF417E50F /* Pods-ChangePassword.debug.xcconfig */,
+				009488C003AFEBA3655B9050 /* Pods-ChangePassword.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96F36AB81FA2DB5F00340469 = {
+			isa = PBXGroup;
+			children = (
+				96F36AC31FA2DB5F00340469 /* ChangePassword */,
+				96F36AD61FA2DB5F00340469 /* ChangePasswordTests */,
+				96F36AE11FA2DB5F00340469 /* ChangePasswordUITests */,
+				96F36AC21FA2DB5F00340469 /* Products */,
+				61C9E38CFE0A6E695A0D2DDC /* Pods */,
+				1D7567AC192B9FF759A140FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96F36AC21FA2DB5F00340469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F36AC11FA2DB5F00340469 /* ChangePassword.app */,
+				96F36AD31FA2DB5F00340469 /* ChangePasswordTests.xctest */,
+				96F36ADE1FA2DB5F00340469 /* ChangePasswordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F36AC31FA2DB5F00340469 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				96F36AF21FA2DE5400340469 /* Main */,
+				96F36AF11FA2DE2F00340469 /* Config */,
+				96F36AF31FA2DE6700340469 /* Categories */,
+				96F36AF01FA2DE2200340469 /* Until */,
+				96F36AF41FA2DE7B00340469 /* Others */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		96F36AD61FA2DB5F00340469 /* ChangePasswordTests */ = {
+			isa = PBXGroup;
+			children = (
+				96F36AD71FA2DB5F00340469 /* ChangePasswordTests.m */,
+				96F36AD91FA2DB5F00340469 /* Info.plist */,
+			);
+			path = ChangePasswordTests;
+			sourceTree = "<group>";
+		};
+		96F36AE11FA2DB5F00340469 /* ChangePasswordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96F36AE21FA2DB5F00340469 /* ChangePasswordUITests.m */,
+				96F36AE41FA2DB5F00340469 /* Info.plist */,
+			);
+			path = ChangePasswordUITests;
+			sourceTree = "<group>";
+		};
+		96F36AF01FA2DE2200340469 /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				96F36AFC1FA3124600340469 /* Utils.h */,
+				96F36AFD1FA3124600340469 /* Utils.m */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+		96F36AF11FA2DE2F00340469 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				96A2F18F1FA71AB900C57B41 /* CommonConfigFile.h */,
+				96A2F18E1FA71AB900C57B41 /* CommonConfigFile.m */,
+				96F36AF51FA308A500340469 /* ChangePasswordFile.h */,
+				96F36AF61FA308D500340469 /* ChangePasswordPchFile.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		96F36AF21FA2DE5400340469 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				96F36AC41FA2DB5F00340469 /* AppDelegate.h */,
+				96F36AC51FA2DB5F00340469 /* AppDelegate.m */,
+				96F36AF71FA3099F00340469 /* RootViewController.h */,
+				96F36AF81FA3099F00340469 /* RootViewController.m */,
+				96F36AF91FA3099F00340469 /* RootViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		96F36AF31FA2DE6700340469 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				96F36B021FA3173400340469 /* NSString+AESSecurity.h */,
+				96F36B031FA3173400340469 /* NSString+AESSecurity.m */,
+				96F36B081FA31A4000340469 /* SVProgressHUD+Extension.h */,
+				96F36B091FA31A4000340469 /* SVProgressHUD+Extension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		96F36AF41FA2DE7B00340469 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				96F36AC71FA2DB5F00340469 /* Assets.xcassets */,
+				96F36AC91FA2DB5F00340469 /* LaunchScreen.storyboard */,
+				96F36ACC1FA2DB5F00340469 /* Info.plist */,
+				96F36ACD1FA2DB5F00340469 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F36AC01FA2DB5F00340469 /* ChangePassword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F36AE71FA2DB5F00340469 /* Build configuration list for PBXNativeTarget "ChangePassword" */;
+			buildPhases = (
+				DD3DC5A669E555BD71C18E49 /* [CP] Check Pods Manifest.lock */,
+				96F36ABD1FA2DB5F00340469 /* Sources */,
+				96F36ABE1FA2DB5F00340469 /* Frameworks */,
+				96F36ABF1FA2DB5F00340469 /* Resources */,
+				E82E2AB406495F6DE6B57DD4 /* [CP] Embed Pods Frameworks */,
+				BA284F087A317061C45A90E8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChangePassword;
+			productName = ChangePassword;
+			productReference = 96F36AC11FA2DB5F00340469 /* ChangePassword.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96F36AD21FA2DB5F00340469 /* ChangePasswordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F36AEA1FA2DB5F00340469 /* Build configuration list for PBXNativeTarget "ChangePasswordTests" */;
+			buildPhases = (
+				96F36ACF1FA2DB5F00340469 /* Sources */,
+				96F36AD01FA2DB5F00340469 /* Frameworks */,
+				96F36AD11FA2DB5F00340469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F36AD51FA2DB5F00340469 /* PBXTargetDependency */,
+			);
+			name = ChangePasswordTests;
+			productName = ChangePasswordTests;
+			productReference = 96F36AD31FA2DB5F00340469 /* ChangePasswordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96F36ADD1FA2DB5F00340469 /* ChangePasswordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F36AED1FA2DB5F00340469 /* Build configuration list for PBXNativeTarget "ChangePasswordUITests" */;
+			buildPhases = (
+				96F36ADA1FA2DB5F00340469 /* Sources */,
+				96F36ADB1FA2DB5F00340469 /* Frameworks */,
+				96F36ADC1FA2DB5F00340469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F36AE01FA2DB5F00340469 /* PBXTargetDependency */,
+			);
+			name = ChangePasswordUITests;
+			productName = ChangePasswordUITests;
+			productReference = 96F36ADE1FA2DB5F00340469 /* ChangePasswordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F36AB91FA2DB5F00340469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Jason_Xu;
+				TargetAttributes = {
+					96F36AC01FA2DB5F00340469 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+					96F36AD21FA2DB5F00340469 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96F36AC01FA2DB5F00340469;
+					};
+					96F36ADD1FA2DB5F00340469 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96F36AC01FA2DB5F00340469;
+					};
+				};
+			};
+			buildConfigurationList = 96F36ABC1FA2DB5F00340469 /* Build configuration list for PBXProject "ChangePassword" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F36AB81FA2DB5F00340469;
+			productRefGroup = 96F36AC21FA2DB5F00340469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F36AC01FA2DB5F00340469 /* ChangePassword */,
+				96F36AD21FA2DB5F00340469 /* ChangePasswordTests */,
+				96F36ADD1FA2DB5F00340469 /* ChangePasswordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F36ABF1FA2DB5F00340469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F36AC81FA2DB5F00340469 /* Assets.xcassets in Resources */,
+				96F36ACB1FA2DB5F00340469 /* LaunchScreen.storyboard in Resources */,
+				96F36AFB1FA3099F00340469 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F36AD11FA2DB5F00340469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F36ADC1FA2DB5F00340469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA284F087A317061C45A90E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChangePassword/Pods-ChangePassword-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD3DC5A669E555BD71C18E49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E82E2AB406495F6DE6B57DD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChangePassword/Pods-ChangePassword-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F36ABD1FA2DB5F00340469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F36ACE1FA2DB5F00340469 /* main.m in Sources */,
+				96F36AC61FA2DB5F00340469 /* AppDelegate.m in Sources */,
+				96F36B0A1FA31A4000340469 /* SVProgressHUD+Extension.m in Sources */,
+				96F36B041FA3173400340469 /* NSString+AESSecurity.m in Sources */,
+				96A2F1901FA71AB900C57B41 /* CommonConfigFile.m in Sources */,
+				96F36AFA1FA3099F00340469 /* RootViewController.m in Sources */,
+				96F36AFE1FA3124600340469 /* Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F36ACF1FA2DB5F00340469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F36AD81FA2DB5F00340469 /* ChangePasswordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F36ADA1FA2DB5F00340469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F36AE31FA2DB5F00340469 /* ChangePasswordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96F36AD51FA2DB5F00340469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F36AC01FA2DB5F00340469 /* ChangePassword */;
+			targetProxy = 96F36AD41FA2DB5F00340469 /* PBXContainerItemProxy */;
+		};
+		96F36AE01FA2DB5F00340469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F36AC01FA2DB5F00340469 /* ChangePassword */;
+			targetProxy = 96F36ADF1FA2DB5F00340469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96F36AC91FA2DB5F00340469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F36ACA1FA2DB5F00340469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F36AE51FA2DB5F00340469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96F36AE61FA2DB5F00340469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96F36AE81FA2DB5F00340469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9908D652AC263BF417E50F /* Pods-ChangePassword.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChangePassword/Config/ChangePasswordPchFile.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ChangePassword/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.ChangePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96F36AE91FA2DB5F00340469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 009488C003AFEBA3655B9050 /* Pods-ChangePassword.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChangePassword/Config/ChangePasswordPchFile.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ChangePassword/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.ChangePassword;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96F36AEB1FA2DB5F00340469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangePasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.ChangePasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangePassword.app/ChangePassword";
+			};
+			name = Debug;
+		};
+		96F36AEC1FA2DB5F00340469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangePasswordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.ChangePasswordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChangePassword.app/ChangePassword";
+			};
+			name = Release;
+		};
+		96F36AEE1FA2DB5F00340469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangePasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.ChangePasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangePassword;
+			};
+			name = Debug;
+		};
+		96F36AEF1FA2DB5F00340469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChangePasswordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JasonXu.org.ChangePasswordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChangePassword;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F36ABC1FA2DB5F00340469 /* Build configuration list for PBXProject "ChangePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F36AE51FA2DB5F00340469 /* Debug */,
+				96F36AE61FA2DB5F00340469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F36AE71FA2DB5F00340469 /* Build configuration list for PBXNativeTarget "ChangePassword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F36AE81FA2DB5F00340469 /* Debug */,
+				96F36AE91FA2DB5F00340469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F36AEA1FA2DB5F00340469 /* Build configuration list for PBXNativeTarget "ChangePasswordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F36AEB1FA2DB5F00340469 /* Debug */,
+				96F36AEC1FA2DB5F00340469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F36AED1FA2DB5F00340469 /* Build configuration list for PBXNativeTarget "ChangePasswordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F36AEE1FA2DB5F00340469 /* Debug */,
+				96F36AEF1FA2DB5F00340469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F36AB91FA2DB5F00340469 /* Project object */;
+}
